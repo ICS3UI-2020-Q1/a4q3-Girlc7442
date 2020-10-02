@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Sample",
+      "setup": "javac Main.java",
+      "run": "java Main",
+      "input": "78",
+      "output": "Please enter an integer to count down to\r\nThe sum from 1 - 78 is 3081",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "One",
+      "setup": "javac Main.java",
+      "run": "java Main",
+      "input": "1",
+      "output": "Please enter an integer to count down to\r\nThe sum from 1 - 1 is 1\r\n",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    }
+  ]
+}
